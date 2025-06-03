@@ -58,7 +58,7 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "translate-x-full overflow-hidden"
         } md:hidden fixed inset-0 z-50 transition-transform ease-in-out duration-500 h-full`}
       >
-        <div className="w-[50%] bg-black rounded-l-2xl border border-gray-700 absolute top-0 bottom-0 right-0 p-4 flex flex-col gap-4">
+        <div className="w-[50%] bg-black rounded-l-2xl border-l border-gray-700 absolute top-0 bottom-0 right-0 p-4 flex flex-col gap-4">
           <X
             onClick={() => setIsOpen(false)}
             className="absolute top-4 right-4"
