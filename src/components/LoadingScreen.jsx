@@ -24,9 +24,7 @@ const LoadingScreen = ({ onComplete }) => {
 
   return (
     <div className="flex flex-col bg-black text-gray-100 items-center justify-center fixed inset-0 z-50">
-      <div className="mb-4 text-2xl md:text-3xl font-mono font-bold">
-        {text}
-      </div>
+      <div className="mb-4 text-2xl md:text-3xl font-bold">{text}</div>
       <div className="w-[140px] md:w-[160px] h-[2px] bg-gray-800 rounded overflow-hidden">
         <div className="w-[40%] h-full bg-blue-500 animate-loading-bar"></div>
       </div>

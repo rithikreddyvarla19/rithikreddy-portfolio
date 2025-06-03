@@ -31,9 +31,7 @@ const Skills = () => {
         <h2 className="text-lg md:text-xl font-bold">My Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div>
-            <p className="font-mono text-base md:text-lg font-bold mb-4">
-              Frontend
-            </p>
+            <p className="text-base md:text-lg font-bold mb-4">Frontend</p>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {frontendSkills.map((skill) => (
                 <div
@@ -47,9 +45,7 @@ const Skills = () => {
             </div>
           </div>
           <div>
-            <p className="font-mono text-base md:text-lg font-bold mb-4">
-              Backend
-            </p>
+            <p className="text-base md:text-lg font-bold mb-4">Backend</p>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {backendSkills.map((skill) => (
                 <div
@@ -63,9 +59,7 @@ const Skills = () => {
             </div>
           </div>
           <div>
-            <p className="font-mono text-base md:text-lg font-bold mb-4">
-              Tools
-            </p>
+            <p className="text-base md:text-lg font-bold mb-4">Tools</p>
             <div className="grid grid-cols-2 gap-4 text-sm">
               {tools.map((skill) => (
                 <div

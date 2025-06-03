@@ -15,7 +15,7 @@ const About = () => {
           {/* Education and Experience */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div>
-              <p className="font-mono text-base md:text-lg font-bold mb-4">
+              <p className="text-base md:text-lg font-bold mb-4">
                 🏫 Education
               </p>
               <ul className="text-sm flex flex-col gap-2">
@@ -32,7 +32,7 @@ const About = () => {
               </ul>
             </div>
             <div>
-              <p className="font-mono text-base md:text-lg font-bold mb-4">
+              <p className="text-base md:text-lg font-bold mb-4">
                 💼 Experience
               </p>
               <ul className="text-sm flex flex-col gap-2">
