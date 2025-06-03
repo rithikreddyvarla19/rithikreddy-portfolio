@@ -76,7 +76,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col gap-4 border border-gray-700 rounded-2xl relative pb-12"
+              className="flex flex-col gap-4 border-2 border-gray-700 rounded-2xl relative pb-12"
             >
               <a href={project.website} target="_blank">
                 <img
