@@ -37,7 +37,7 @@ const Contact = () => {
               target="_blank"
               className="flex items-center bg-stone-900 rounded px-4 py-2 hover:bg-stone-800 transition-colors duration-300"
             >
-              <img src={social.icon} alt="icon" className="size-6 md:size-8" />
+              <img src={social.icon} alt="icon" className="size-7 md:size-8" />
             </a>
           ))}
         </div>
