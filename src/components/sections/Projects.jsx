@@ -76,7 +76,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="flex flex-col gap-4 border border-gray-700 rounded-2xl"
+              className="flex flex-col gap-4 border border-gray-700 rounded-2xl relative pb-12"
             >
               <a href={project.website} target="_blank">
                 <img
@@ -92,7 +92,17 @@ const Projects = () => {
                 <p className="text-xs md:text-sm font-medium text-gray-400">
                   {project.description}
                 </p>
-                <div className="flex items-center gap-4">
+                <div className="flex flex-wrap gap-2">
+                  {project.technologies.map((tech, index) => (
+                    <span
+                      key={index}
+                      className="bg-stone-800 text-white px-3 py-1 rounded text-xs"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex items-center justify-between absolute bottom-0 left-0 right-0 p-4">
                   <a
                     href={project.website}
                     target="_blank"
@@ -107,16 +117,6 @@ const Projects = () => {
                   >
                     <Github className="size-4" /> Code
                   </a>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, index) => (
-                    <span
-                      key={index}
-                      className="bg-stone-800 text-white px-3 py-1 rounded text-xs"
-                    >
-                      {tech}
-                    </span>
-                  ))}
                 </div>
               </div>
             </div>
