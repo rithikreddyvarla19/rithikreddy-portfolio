@@ -52,7 +52,7 @@ const bachelorsCourses = [
                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                 {
                   mastersCourses.map((course, index) => (
-                    <li className="px-4 py-2 rounded bg-white text-black text-xs font-bold" key={index}>{course}</li>
+                    <li className="px-4 py-2 rounded bg-stone-900 text-white text-xs font-bold" key={index}>{course}</li>
                   ))
                }
                </div>
@@ -76,7 +76,7 @@ const bachelorsCourses = [
                                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
     {
                     bachelorsCourses.map((course, index) => (
-                      <li className="px-4 py-2 rounded bg-white text-black text-xs font-bold" key={index}>{course}</li>
+                      <li className="px-4 py-2 rounded bg-stone-900 text-white text-xs font-bold" key={index}>{course}</li>
                     ))
                   }
                                  </div>
