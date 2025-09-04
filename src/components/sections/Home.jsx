@@ -9,13 +9,13 @@ const Home = () => {
     >
       <div className="text-center px-4 flex flex-col items-center gap-6">
         <img
-          className="size-30 rounded-full mx-auto"
+          className="size-36 rounded-full mx-auto border-4 border-gray-700"
           src={myImage}
           alt="image"
         />
         <h1 className="text-4xl md:text-6xl font-bold">Hi, I am Joel</h1>
         <p className="text-gray-400 text-sm md:text-base font-medium max-w-lg">
-          A <span className="font-bold text-white">Frontend Developer</span> who
+          A <span className="font-bold text-white">Fullstack Developer</span> who
           loves crafting clean, scalable web applications. My goal is to build
           solutions that offers exceptional performance and a delightful user
           experience.

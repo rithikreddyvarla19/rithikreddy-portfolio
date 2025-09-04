@@ -10,7 +10,7 @@ const Contact = () => {
     },
     {
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png",
-      link: "https://wa.me/7670819765",
+      link: "https://wa.me/+14074487826",
     },
     {
       icon: "https://skillicons.dev/icons?i=instagram",
@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="max-w-3xl flex flex-col items-center gap-6 p-4">
         <h2 className="text-lg md:text-xl font-bold">Contact Me</h2>
         <p className="text-sm md:text-base font-medium text-center text-red-500">
-          I'm currently seeking frontend opportunities. <br />
+          I'm currently seeking fullstack developer opportunities. <br />
           Please feel free to connect.
         </p>
         <div className="grid grid-cols-5  gap-2 md:gap-8 text-sm">
