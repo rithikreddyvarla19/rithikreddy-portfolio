@@ -1,7 +1,16 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, Clock, MapPin } from "lucide-react";
 import myImage from "../../assets/icon.png";
+import { useEffect, useState } from "react";
 
 const Home = () => {
+  const [time, setTime] = useState(new Date());
+  
+  useEffect(() => {
+    const interval = setInterval(() => setTime(new Date()), 1000)
+    return () => clearInterval(interval);
+  }, [])
+
+  const formattedTime = time.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
   return (
     <section
       id="home"
@@ -14,6 +23,14 @@ const Home = () => {
           alt="image"
         />
         <h1 className="text-4xl md:text-6xl font-bold">Hi, I am Joel</h1>
+        <div className="flex items-center gap-4">
+          <div>
+          <div className="bg-stone-800 flex items-center gap-2 text-white p-2 rounded text-xs"><MapPin className="size-3"/> Orlando, Florida</div>
+        </div>
+        <div>
+          <div className="bg-stone-800 flex items-center gap-2 text-white p-2 rounded text-xs w-28"><Clock className="size-3"/>{formattedTime}</div>
+        </div>
+        </div>
         <p className="text-gray-400 text-sm md:text-base font-medium max-w-lg">
           A <span className="font-bold text-white">Fullstack Developer</span> who
           loves crafting clean, scalable web applications. My goal is to build
