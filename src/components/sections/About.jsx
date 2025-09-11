@@ -84,10 +84,38 @@ const bachelorsCourses = [
                
               </div>
             </div>
-            <div>
-              <p className="text-base md:text-lg font-bold mb-4">
+            <div className="space-y-4">
+              <p className="text-base md:text-lg font-bold">
                 Experience
               </p>
+            <div className="text-sm flex flex-col border-2 border-gray-700 rounded-2xl p-4 gap-4">
+                <div className="flex items-center gap-2">
+                <img src="https://1000logos.net/wp-content/uploads/2017/11/University-of-Central-Florida-Logo.png" alt="ucf" className="size-12 object-cover rounded-full" />
+                  <div className="flex flex-col justify-center">
+                    <span className="font-bold">
+                     Graduate Teaching Assistant - University of Central Florida
+                  </span>
+                  <span>
+                    (Sep 2025 - Present)
+                  </span>
+                  </div>
+                </div>
+                  <span className="italic font-medium">Related Work:</span> 
+
+                <ul className="list-disc ml-4 space-y-2">
+                  <li>
+                 Assisted in the Mobile Device Software Development course (CEN4360) by grading assignments and projects.
+                </li>
+                <li>
+                  Supported faculty in evaluating Android/iOS development coursework and providing structured feedback to
+students.
+                </li>
+                <li>
+                  Reinforced understanding of mobile application frameworks and front-end concepts while guiding student
+learning.
+                </li>
+                </ul>
+              </div>
               <div className="text-sm flex flex-col border-2 border-gray-700 rounded-2xl p-4 gap-4">
                 <div className="flex items-center gap-2">
                 <img src="https://media.licdn.com/dms/image/v2/C4D0BAQGhKnKDh2Z0BA/company-logo_200_200/company-logo_200_200/0/1630537978812?e=1759968000&v=beta&t=DhzFfetvxgUkfMZUZOiwshZdXg42P-iywKTaXfOhr-E" alt="infosol" className="size-12 object-cover rounded-full" />
