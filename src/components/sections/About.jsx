@@ -1,3 +1,7 @@
+import ucfLogo from "../../assets/ucf-logo.png";
+import kitsLogo from "../../assets/kits-logo.jpg";
+import infosolLogo from "../../assets/infosol-logo.jpeg";
+
 const About = () => {
   const mastersCourses = [
     "CDA 5106 - ADV COMPUTER ARCHITECTURE",
@@ -38,7 +42,7 @@ const bachelorsCourses = [
               </p>
               <div className="text-sm flex flex-col gap-4 border-2 border-gray-700 rounded-2xl p-4">
                 <div className="flex items-center gap-2">
-                <img src="https://1000logos.net/wp-content/uploads/2017/11/University-of-Central-Florida-Logo.png" alt="ucf" className="size-12 object-cover rounded-full" />
+                <img src={ucfLogo} alt="ucf" className="size-12 object-cover rounded-full" />
 
                   <div className="flex flex-col justify-center">
                     <span className="font-bold">
@@ -61,7 +65,7 @@ const bachelorsCourses = [
               <br />
               <div className="text-sm flex flex-col border-2 border-gray-700 rounded-2xl p-4 gap-4">
                 <div className="flex items-center gap-2">
-                  <img src="https://scontent.ftpa1-1.fna.fbcdn.net/v/t39.30808-6/455278986_935305731942867_221155067158021700_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XdJziXm7neUQ7kNvwE1vlrj&_nc_oc=AdmZf3Wn2QvcDO4ngJcPUqT72B-akRt1DnKIYpr8ouKtq6dn3p6Hlv1rHHSZfQqXZYOeevDkyq1jDvzjsqgeushS&_nc_zt=23&_nc_ht=scontent.ftpa1-1.fna&_nc_gid=iIdQ8iWmvK18Asp-ClvoNg&oh=00_AfVoTPXNgRZIUNT3u2D7OL7yZzI-N4XCArGAmLKPxjZjkg&oe=68BD3F9C" alt="kits" className="size-12 object-cover rounded-full" />
+                  <img src={kitsLogo} alt="kits" className="size-12 object-cover rounded-full" />
                   <div className="flex flex-col justify-center">
                     <span className="font-bold">
                     B. Tech in Computer Science
@@ -91,7 +95,7 @@ const bachelorsCourses = [
               </p>
             <div className="text-sm flex flex-col border-2 border-gray-700 rounded-2xl p-4 gap-4">
                 <div className="flex items-center gap-2">
-                <img src="https://1000logos.net/wp-content/uploads/2017/11/University-of-Central-Florida-Logo.png" alt="ucf" className="size-12 object-cover rounded-full" />
+                <img src={ucfLogo} alt="ucf" className="size-12 object-cover rounded-full" />
                   <div className="flex flex-col justify-center">
                     <span className="font-bold">
                      Graduate Teaching Assistant - University of Central Florida
@@ -119,7 +123,7 @@ learning.
               </div>
               <div className="text-sm flex flex-col border-2 border-gray-700 rounded-2xl p-4 gap-4">
                 <div className="flex items-center gap-2">
-                <img src="https://media.licdn.com/dms/image/v2/C4D0BAQGhKnKDh2Z0BA/company-logo_200_200/company-logo_200_200/0/1630537978812?e=1759968000&v=beta&t=DhzFfetvxgUkfMZUZOiwshZdXg42P-iywKTaXfOhr-E" alt="infosol" className="size-12 object-cover rounded-full" />
+                <img src={infosolLogo} alt="infosol" className="size-12 object-cover rounded-full" />
                   <div className="flex flex-col justify-center">
                     <span className="font-bold">
                      Full Stack Developer Intern - INFOSOL
