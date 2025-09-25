@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
-  const fullText = "<Joel Dasari />";
+  const fullText = "<Rithik Reddy />";
 
   useEffect(() => {
     let index = 0;
