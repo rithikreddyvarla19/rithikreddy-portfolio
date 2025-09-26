@@ -52,7 +52,7 @@ const Home = () => {
           <a
             className="bg-white text-black text-xs md:text-sm font-medium px-4 py-2 rounded"
             target="_blank"
-            href="https://drive.google.com/file/d/1Ar8DeeCmiFr95v2QLJ_7K9BkemdfS2M5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Bpotx9cyum-xIG20Z-hENwr86vP0Z1_y/view?usp=sharing"
           >
             Resume
           </a>
