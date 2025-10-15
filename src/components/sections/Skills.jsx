@@ -1,45 +1,57 @@
 const Skills = () => {
-  const programmingLanguages = [
-    { name: "Python", icon: "https://skillicons.dev/icons?i=python" },
-    { name: "Java", icon: "https://skillicons.dev/icons?i=java" },
-    { name: "C", icon: "https://skillicons.dev/icons?i=c" },
-    { name: "C++", icon: "https://skillicons.dev/icons?i=cpp" },
-    { name: "JavaScript", icon: "https://skillicons.dev/icons?i=javascript" },
-    { name: "SQL", icon: "https://skillicons.dev/icons?i=mysql" },
-  ];
+// Programming Languages
+const programmingLanguages = [
+  { name: "Python", icon: "https://skillicons.dev/icons?i=python" },
+  { name: "Java", icon: "https://skillicons.dev/icons?i=java" },
+  { name: "C++", icon: "https://skillicons.dev/icons?i=cpp" },
+  { name: "JavaScript", icon: "https://skillicons.dev/icons?i=javascript" },
+  { name: "TypeScript", icon: "https://skillicons.dev/icons?i=typescript" },
+  { name: "SQL", icon: "https://skillicons.dev/icons?i=mysql" },
+  { name: "HTML", icon: "https://skillicons.dev/icons?i=html" },
+  { name: "CSS", icon: "https://skillicons.dev/icons?i=css" },
+];
 
-  const cloudDevOpsSkills = [
-    { name: "AWS", icon: "https://skillicons.dev/icons?i=aws" },
-    {name: "Google Cloud Platform", icon: "https://skillicons.dev/icons?i=gcp" },
-    { name: "Azure", icon: "https://skillicons.dev/icons?i=azure" },
-    { name: "Docker", icon: "https://skillicons.dev/icons?i=docker" },
-    { name: "Kubernetes", icon: "https://skillicons.dev/icons?i=kubernetes" },
-    { name: "Podman", icon: "https://img.icons8.com/?size=512&id=tnHZywoCk3hW&format=png" }, // custom icon
-    { name: "Terraform", icon: "https://skillicons.dev/icons?i=terraform" },
-    { name: "Linux", icon: "https://skillicons.dev/icons?i=linux" },
-    { name: "Git", icon: "https://skillicons.dev/icons?i=git" },
-  ];
+// Cloud & DevOps
+const cloudDevOpsSkills = [
+  { name: "AWS", icon: "https://skillicons.dev/icons?i=aws" },
+  { name: "Google Cloud Platform", icon: "https://skillicons.dev/icons?i=gcp" },
+  { name: "Docker", icon: "https://skillicons.dev/icons?i=docker" },
+  { name: "Kubernetes", icon: "https://skillicons.dev/icons?i=kubernetes" },
+  { name: "GitHub Actions", icon: "https://skillicons.dev/icons?i=githubactions" },
+  { name: "Linux", icon: "https://skillicons.dev/icons?i=linux" },
+  { name: "Git", icon: "https://skillicons.dev/icons?i=git" },
+];
 
-  const databaseSkills = [
-    { name: "PostgreSQL", icon: "https://skillicons.dev/icons?i=postgresql" },
-    { name: "MySQL", icon: "https://skillicons.dev/icons?i=mysql" },
-    { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb" },
-  ];
+// Databases & Caches
+const databaseSkills = [
+  { name: "PostgreSQL", icon: "https://skillicons.dev/icons?i=postgresql" },
+  { name: "MySQL", icon: "https://skillicons.dev/icons?i=mysql" },
+  { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb" },
+  { name: "Redis", icon: "https://skillicons.dev/icons?i=redis" },
+];
 
-  const dataEngineeringSkills = [
-    { name: "Apache Airflow", icon: "https://img.icons8.com/?size=512&id=gK2eg3PjmjD5&format=png" }, // custom
-    { name: "PySpark", icon: "https://spark.apache.org/images/spark-logo-rev.svg" }, // official logo
-    { name: "Azure Data Factory", icon: "https://img.icons8.com/?size=512&id=ahJez3J2k0lR&format=png" }, // custom
-    { name: "Synapse Analytics", icon: "https://img.icons8.com/?size=512&id=YtMhGItQeapO&format=png" }, // custom
-  ];
+// Data / Backend Engineering
+const dataEngineeringSkills = [
+  { name: "FastAPI", icon: "https://skillicons.dev/icons?i=fastapi" },
+  { name: "Flask", icon: "https://skillicons.dev/icons?i=flask" },
+  { name: "Celery", icon: "https://cdn.simpleicons.org/celery" }, // task queue used in CloudTasker
+];
 
-  const frameworksTools = [
-    { name: "FastAPI", icon: "https://skillicons.dev/icons?i=fastapi" },
-    { name: "Spring MVC", icon: "https://skillicons.dev/icons?i=spring" },
-    { name: "TensorFlow", icon: "https://skillicons.dev/icons?i=tensorflow" },
-    { name: "Grafana", icon: "https://skillicons.dev/icons?i=grafana" },
-    { name: "Prometheus", icon: "https://img.icons8.com/?size=512&id=F10J0X1IWs2h&format=png" }, // custom
-  ];
+// Frameworks & Tools
+const frameworksTools = [
+  { name: "Node.js", icon: "https://skillicons.dev/icons?i=nodejs" },
+  { name: "React.js", icon: "https://skillicons.dev/icons?i=react" },
+  { name: "Spring Boot", icon: "https://skillicons.dev/icons?i=spring" },
+  { name: "TensorFlow", icon: "https://skillicons.dev/icons?i=tensorflow" },
+  { name: "OpenCV", icon: "https://cdn.simpleicons.org/opencv" },
+  { name: "Grafana", icon: "https://skillicons.dev/icons?i=grafana" },
+  { name: "Prometheus", icon: "https://img.icons8.com/?size=512&id=F10J0X1IWs2h&format=png" }, // custom
+  { name: "Kibana", icon: "https://cdn.simpleicons.org/kibana" },
+  { name: "Splunk", icon: "https://cdn.simpleicons.org/splunk" },
+  { name: "JWT (Auth)", icon: "https://cdn.simpleicons.org/jsonwebtokens" }, // for your DevBoard APIs
+  { name: "REST APIs", icon: "https://cdn.simpleicons.org/apachespark" }, // placeholder icon; feel free to swap
+];
+
 
   return (
     <section id="skills" className="py-12 flex items-center justify-center">

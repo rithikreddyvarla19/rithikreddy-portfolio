@@ -25,10 +25,10 @@ const Contact = () => {
     <section id="contact" className="py-12 flex items-center justify-center">
       <div className="max-w-3xl flex flex-col items-center gap-6 p-4">
         <h2 className="text-lg md:text-xl font-bold">Contact Me</h2>
-        <p className="text-sm md:text-base font-medium text-center text-red-500">
-          I'm currently seeking Data Engineering & Cloud opportunities. <br />
-          Let’s connect and build something impactful!
-        </p>
+       <p className="text-sm md:text-base font-medium text-center text-red-500">
+  I'm currently seeking <span className="font-semibold">Software Engineering, Data Engineering, and DevOps</span> opportunities. <br />
+  Let’s connect to build scalable, cloud-native solutions that make an impact!
+</p>
 
         <div className="grid grid-cols-5  gap-2 md:gap-8 text-sm">
           {socialMediaLinks.map((social, index) => (

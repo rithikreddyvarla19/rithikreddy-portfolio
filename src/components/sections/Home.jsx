@@ -37,11 +37,13 @@ const Home = () => {
           </div>
         </div>
         <p className="text-gray-400 text-sm md:text-base font-medium max-w-lg">
-          A <span className="font-bold text-white">Data Engineer & DevOps Engineer </span> 
-          passionate about building efficient, scalable data pipelines and deploying 
-          robust cloud-native solutions. My goal is to deliver high-performance, 
-          cost-effective, and secure systems.
-        </p>
+  A <span className="font-bold text-white">Software Engineer & Graduate Teaching Assistant </span> 
+  specializing in <span className="font-semibold">Data Engineering and DevOps</span>. I design and deploy 
+  <span className="font-semibold"> cloud-native microservices, CI/CD pipelines, and data-driven systems</span> 
+  using Docker, Kubernetes, AWS, and GCP. I’m passionate about delivering 
+  <span className="font-semibold"> scalable, secure, and high-performance solutions</span> that make an impact.
+</p>
+
         <div className="flex items-center gap-8">
           <a
             className="bg-blue-500 text-white text-xs md:text-sm font-medium px-4 py-2 rounded"
@@ -52,7 +54,7 @@ const Home = () => {
           <a
             className="bg-white text-black text-xs md:text-sm font-medium px-4 py-2 rounded"
             target="_blank"
-            href="https://drive.google.com/file/d/1Bpotx9cyum-xIG20Z-hENwr86vP0Z1_y/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pby24uVaic36UnNbhhEn2nz4hK7omM5l/view?usp=sharing"
           >
             Resume
           </a>
